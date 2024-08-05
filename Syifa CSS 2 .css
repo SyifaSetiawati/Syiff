@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;  
+  }
+  
+  .nav{
+      color: whitesmoke;
+      display: flex;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: #3466a7;
+      position: fixed;
+      width: 100%;
+  }
+  .nav a{
+      color: rgb(49, 88, 196);
+  }
+  
+  .nav a{
+      color:whitesmoke
+  }
+  
+  .nav li{
+      padding: 5px;
+  }
+  
+  .nav li:hover{
+      background-color: #3466a7;
+  }
+  
+  .data-list{
+      margin-left: 54.4%;
+  }
+  
+  .data-list li{
+  display: inline-block;
+  margin-left: 30px;
+  }
+  
+  .logo{
+      margin-left: 30px;
+  }
+  
+  .list{
+      display: none;
+      background-color: #222;
+      position: absolute;
+      padding-top: 20px;
+      padding-right: 20px;
+      padding-bottom: 30px;
+  }
+  
+  .list li{
+      display: block;
+      margin-bottom: 10px;
+      color: whitesmoke;
+  }
+  .fa-chevron-down{
+      transform: rotate(0);
+      transition: 600ms;
+  }
+  .Galeri:hover .fa-chevron-down{
+      transform: rotate(-180deg);
+  }
+  
+  .data-list a{
+      text-decoration: none;
+  }
+  
+  .Galeri:hover .list{
+      display: block;
+  }
+
+  body{
+    background-image:url('bintang.jpg')}
+    <style>
+    .box {
+    widht: 200px;
+    padding: 10px;
+    border:5px;
+    margin:20px:
+    }
+    .container{
+        display:flex;
+    }
+    .item{
+        flex: 1;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: : repeat(3, 1fr);
+    }
+    .item{
+        padding: 20px;
+    }
+
+    @media (max-widht600px) {
+    .container
+        flex-direction: column;
+}
+
+
